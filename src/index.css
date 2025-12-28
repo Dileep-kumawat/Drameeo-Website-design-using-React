@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #ac8dd4;
+  border-radius: 999px;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9b7fc7;
+}
+
+
+.movie-card:hover .play-button{
+  scale: 1;
+}
+
+.movie-card:hover img{
+  filter: brightness(50%);
+}
